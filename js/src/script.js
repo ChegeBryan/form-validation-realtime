@@ -3,10 +3,10 @@ class CustomValidation {
         this.invalidities = [];
         this.validityChecks = [];
 
-        //add reference to the input node
+        // add reference to the input node
         this.inputNode = input;
 
-        //trigger method to attach the listener
+        // trigger method to attach the listener
         this.registerListener();
     }
 
@@ -54,7 +54,7 @@ class CustomValidation {
 		}
 	}
 
-    registerListener() { //register the listener here
+    registerListener() { // register the listener here
 
 		const CustomValidation = this;
 
