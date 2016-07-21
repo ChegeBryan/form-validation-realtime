@@ -3,10 +3,14 @@ class CustomValidation {
         this.invalidities = [];
         this.validityChecks = [];
 
-        // add reference to the input node
+        /* Add reference to the input node.
+           Note that the CustomValidation object cannot be executed without an input
+           parameter value for the constructor.
+           i.e new CustomValidation() returns an error, but new CustomValidation(@element).
+         */
         this.inputNode = input;
 
-        // trigger method to attach the listener
+        // Trigger method to attach the listener.
         this.registerListener();
     }
 
@@ -37,11 +41,12 @@ class CustomValidation {
 					requirementElement.classList.add('valid');
 				}
 
-			} // end if requirementElement
-		} // end for
+			} // End if requirementElement.
+		} // End for
 	}
 
-    checkInput() { // checkInput now encapsulated
+    checkInput() {
+      // checkInput() now encapsulated.
 
 		this.inputNode.CustomValidation.invalidities = [];
 		this.checkValidity(this.inputNode);
@@ -54,15 +59,14 @@ class CustomValidation {
 		}
 	}
 
-    registerListener() { // register the listener here
+    registerListener() {
+      // Register the listener here.
 
-		const CustomValidation = this;
+		var CustomValidation = this;
 
 		this.inputNode.addEventListener('keyup', () => {
 			CustomValidation.checkInput();
 		});
-
-
 	}
 }
 
