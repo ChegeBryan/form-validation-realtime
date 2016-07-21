@@ -1,0 +1,21 @@
+{
+  "name": "form-validation-realtime",
+  "version": "1.0.0",
+  "description": "![](https://bitsofco.de/content/images/2016/06/Realtime_Validation2.gif)",
+  "main": "dist/script.js",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whizkydee/form-validation-realtime.git"
+  },
+  "keywords": [],
+  "author": "Olaolu Olawuyi",
+  "bugs": {
+    "url": "https://github.com/whizkydee/form-validation-realtime/issues"
+  },
+  "homepage": "https://github.com/whizkydee/form-validation-realtime#readme"
+}
