@@ -6,11 +6,13 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-sourcemaps": "^1.6.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/whizkydee/form-validation-realtime.git"
+    "url": "https://github.com/whizkydee/form-validation-realtime.git"
   },
   "keywords": [],
   "author": "Olaolu Olawuyi",
