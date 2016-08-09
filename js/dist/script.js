@@ -12,9 +12,10 @@ var CustomValidation = function () {
       this.validityChecks = [];
 
       /* Add reference to the input node.
-      Note that the CustomValidation object cannot be executed without an input
-      parameter value for the constructor.
-      i.e new CustomValidation() returns an error, but new CustomValidation( @element ).
+         Note that the CustomValidation object cannot be executed without an input
+         parameter value for the constructor.
+         i.e `new CustomValidation()` throws an error, but `new CustomValidation( @element )`
+         works fine.
       */
       this.inputNode = input;
 
