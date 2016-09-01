@@ -175,7 +175,7 @@ passwordRepeatInput.CustomValidation.validityChecks = passwordRepeatValidityChec
 const inputs = document.querySelectorAll( 'input:not( [type="submit"] )' );
 
 
-const submit = document.querySelector( 'input[type="submit"' );
+const submit = document.querySelector( 'input[type="submit"]' );
 const form = document.getElementById( 'registration' );
 
 function validate() {
