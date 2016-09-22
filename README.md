@@ -1,12 +1,10 @@
-# Realtime Form Validation
+# Realtime Form Validation (ES6 Version)
 
 ![](https://bitsofco.de/content/images/2016/06/Realtime_Validation2.gif)
 
-## [Read the Blog Post](https://bitsofco.de/realtime-form-validation/#comment-2754183495)
+## [Read the Blog Post](https://bitsofco.de/realtime-form-validation/)
 
-This branch holds an updated version of the original. If you're coming from the [video tutorial](https://youtu.be/m4Fru330HqQ), you should checkout out the [the original repository](https://github.com/ireade/form-validation-realtime/tree/original) for the version from that video. 
+# :fire: Running locally
+Note that this version of the demo is strictly written in ES6. The `gulpfile.babel.js` file requires `gulp>=3.9` to run the gulp tasks, as it is written in ES6. To get things working, run `npm install gulp && npm install gulp -g` to update to a version not lesser than `3.9`. There's a `gulp transpile` task which basically transpiles the ES6 code to ES5.
 
-## Changes + Contributors
-
-- [Commit 2f552735...](https://github.com/ireade/form-validation-realtime/commit/2f552735aee98e22d453fc0e22f30b479e4d9f0a) - [@sarbbottam](https://github.com/sarbbottam) added an event listener for submit of the form
-- [Commit 2a3e0ad0...](https://github.com/ireade/form-validation-realtime/commit/2a3e0ad0d3bd882aecf619ddb4985b608ec5391a) - [@salisadecade](https://github.com/salisadecade) Encapsulated `checkInput` and event registration
+You can find the original version [here](https://github.com/ireade/form-validation-realtime).

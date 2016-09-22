@@ -294,8 +294,8 @@ input:not([type="submit"]):valid {
 /* Overide default box shadow for text inputs in Firefox */
 
 input:-moz-ui-invalid:not(output) {
-    border-color: var(--fh-invalid-input-color);
-    box-shadow: none;
+  border-color: var(--fh-invalid-input-color);
+  box-shadow: none;
 }
 
 
